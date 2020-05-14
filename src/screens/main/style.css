@@ -425,9 +425,7 @@ a{
 }
 
 @media screen and (max-width:640px){
-  h1,h2,h3,h4{
-    color: red;
-  }
+
   .apresentaçãoTecnicas section{
     width: 350px;
   }
