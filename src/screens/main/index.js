@@ -120,7 +120,7 @@ export default function Main(){
 
 
       </section>
-      <section classNames="sectionImgEntrevista ">
+      <section className="sectionImgEntrevista ">
         <div className="imgEntrevista"></div>
       </section>
     </div>
@@ -130,7 +130,7 @@ export default function Main(){
 
     <div className="divTecnicas par">
 
-      <section classNames="sectionImgEntrevista">
+      <section className="sectionImgEntrevista">
         <div className="imgObservação"></div>
       </section>
       
@@ -176,7 +176,7 @@ export default function Main(){
 
 
       </section>
-      <section classNames="sectionImgEntrevista">
+      <section className="sectionImgEntrevista">
         <div className="imgAnalitico"></div>
       </section>
     </div>
@@ -185,6 +185,10 @@ export default function Main(){
 
 
     <div className="divTecnicas par">
+      <section className="sectionImgEntrevista">
+        <div className="imgSintetico"></div>
+      </section>
+
       <section>
         <section>
           <h1 id="sintetico">Método Sintético</h1>
@@ -197,20 +201,185 @@ export default function Main(){
           <h3>&nbsp;&nbsp;&nbsp;&nbsp;Sessões JAD e RAD:se consistem em workshops e sessões de grupo, nos quais envolve
             todos os stakeholders importantes no processo de levantamento, através de reuniões estruturadas e
             com foco bem definido.
-            Durante a sessão JAD são discutidos projetos, ideais, projetos, pre concepção, etc. A partir
+            Durante a sessão JAD são discutidos projetos, ideais, projetos, pre concepção, etc.</h3>
+            <br/>
+            <h3>
+            &nbsp;&nbsp;&nbsp;&nbsp;A partir
             do final desse processo é feito a sessão RAD no qual faz a união com a sessão JAD e adota
             metodologias de prototipação, parte para um rascunhos adotando tudo o que foi discutido durante a
             sessão RAD, é importante ressaltar que esse método é utilizado para projetos complexos e requer
-            mais recursos quando comparado à métodos tradicionais.</h3>
+            mais recursos quando comparado à métodos tradicionais.
+            </h3>
         </section>
 
 
       </section>
-      <section classNames="sectionImgEntrevista">
-        <div className="imgSintetico"></div>
-      </section>
+
     </div>
     
+    <div className="principais_pontos_index">
+       <section>
+          <div className="principais_pontos_index_img">
+
+          </div>
+        </section>
+
+        <section className="index_text">
+          <section>
+            <h1>Principais pontos a serem conderado</h1>
+            <br/>
+            <br/>
+          </section>
+          <section>
+            <h3>Além de conhecer alguns métodos e técnicas é importante ressaltar
+              alguns principais pontos que sempre devem ser considerado ao se fazer
+              durante o planejamento de um software, alguns desses pontos já foram 
+              citados durante a apresentação, porém é valido relembrar.
+            </h3>
+            <br/>
+            <br/>
+            <a href="#necessidades_do_cliente">Conhecer as necessidades do cliente</a>
+            <br/>
+            <a href="#definir_requisitos">Definir os requisitos</a>
+            <br/>
+            <a href="#viabilidade">Avaliar a viabilidade do projeto</a>
+            <br/>
+            <a href="#documentar">Documentar todos os procedimentos</a>
+            <br/>
+            <a href="#metodologia">Escolher a metodologia de desenvolvimento</a>
+          </section>
+        </section>
+
+      </div>
+
+
+    <div className="div_principais_pontos" >
+
+     
+
+
+
+      <section className="principais_pontos">
+        
+        <section id="necessidades_do_cliente">
+          <section>
+            <section>
+              <h1>Conhecer as necessidades do cliente</h1>
+            </section>
+
+            <section>
+              <h3>Como citado na introdução da apresentação, conhecer as necessidades do cliente
+                é a parte fundamental na hora de se levantar um requisito, podemos dizer que
+                o trabalho de levantar os requisitos de um software é conhecer a necessidade do cliente
+                para isso existem diversas técnicas para concluir esse trabalho tão importante.
+              </h3>
+            </section>
+          </section>
+
+
+        </section>
+
+
+
+        <section id="definir_requisitos">
+
+
+
+
+          <section>
+            <section>
+              <h1>Definir os requisitos</h1>
+            </section>
+
+            <section>
+              <h3>Definir os requisitos que um sistema deve possuir também é fundamental e
+                não pode ser deixado de lado, para definir um requisito é importante entender
+                a necessidade do cliente, pois um requisito é algo que o software deve obter
+                para poder atingir o objetivo de sanar a necessidade que o cliente possui.
+              </h3>
+            </section>
+          </section>
+
+        </section>
+
+
+
+        <section id="viabilidade">
+
+          <section>
+            <section>
+              <h1>Avaliar a viabilidade do projeto</h1>
+            </section>
+
+            <section>
+              <h3>Quem nunca ouviu aquela frase famosa do Steve Jobs"O cliente não sabe o que quer, 
+                até que você mostre a ele.", muitas vezes o cliente vem com ideia inviaveis para o projetos
+                e é importante que o Analista / Desenvolvedor esteja atento para não assuma responsabilidades
+                que não possa ser cumpridas.
+                </h3>
+            </section>
+          </section>
+
+
+
+        </section>
+
+
+
+        <section id="documentar">
+
+
+          <section>
+            <section>
+              <h1>Documentar todos os procedimentos</h1>
+            </section>
+
+            <section>
+              <h3>Muitas vezes fazer a documentação de um projeto pode parecer algo chato e tedioso,
+                porém é umas das coisas mais importantes do projeto, pois no futuro quando ocorrer uma 
+                manuntenção no codigo, a documentação servirá como um manual do desenvolvedor.
+              </h3>
+              <br/>
+              <h3>
+                Porém é necessario ter em mente o que deve ser feito, então deve ser definido
+                detalhes mais profundos, nessa parte aparecem os wireframes, fluxogramas e casos de uso,
+              </h3>
+            </section>
+          </section>
+
+
+        </section>
+
+
+
+        <section id="metodologia">
+          <section>
+            <section>
+              <h1>Escolher a metodologia de desenvolvimento</h1>
+            </section>
+
+            <section>
+              <h3>A parte da escolha de uma metodologia de desenvolvimento não é menos
+                importantes que os outros pontos citados nesta apresentação, para se ter uma
+                ideia a metodologia de desenvolvimento é o que vai guiar como um projeto é
+                desenvolvido, atualmente as metodologia ágeis tendem a ser as mais escolhidas,
+                e dentre todas a metodologia Scrum é mais famosa.
+              </h3>
+            </section>
+          </section>
+
+
+        </section>
+      </section>
+    </div>
+
+    <div className="footer">
+      <section>
+        <a target="blank" href="https://www.linkedin.com/in/leonardo-messias-89568818a/"><h1>Autor: Leonardo Messias Rodrigues Lopes</h1></a>
+      </section>
+    </div>
+
+
     </>
     
   )
